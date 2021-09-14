@@ -351,9 +351,9 @@ for j in range(30):
     except:
         print("No point closing, window already closed..")
         
-    np.save('/output/SAVED_LISTS/REWARD_DQN_'+ '_' + str(uid_val), np.array(rewards_list))
-    np.save('/output/SAVED_LISTS/MEAN_DQN_'+ '_' + str(uid_val), np.array(mean_list))
-    np.save('/output/SAVED_LISTS/STDDEV_DQN_'+ '_' + str(uid_val), np.array(std_dev_list))
+    np.save('/output/SAVED_LISTS/REWARD_DQN_'+ '_' + str(uid_val) + '--' + str(j), np.array(rewards_list))
+    np.save('/output/SAVED_LISTS/MEAN_DQN_'+ '_' + str(uid_val) + '--' + str(j), np.array(mean_list))
+    np.save('/output/SAVED_LISTS/STDDEV_DQN_'+ '_' + str(uid_val) + '--' + str(j), np.array(std_dev_list))
     
     
     
@@ -390,9 +390,9 @@ for j in range(30):
     except:
         print("No point closing, window already closed..")
 
-    np.save('/output/SAVED_LISTS/REWARD_RANDOM_'+ '_' + str(uid_val), np.array(rewards_list))
-    np.save('/output/SAVED_LISTS/MEAN_RANDOM_' + '_' + str(uid_val), np.array(mean_list))
-    np.save('/output/SAVED_LISTS/STDDEV_RANDOM_' + '_' + str(uid_val), np.array(std_dev_list))
+    np.save('/output/SAVED_LISTS/REWARD_RANDOM_'+ '_' + str(uid_val) + '--' + str(j), np.array(rewards_list))
+    np.save('/output/SAVED_LISTS/MEAN_RANDOM_' + '_' + str(uid_val) + '--' + str(j), np.array(mean_list))
+    np.save('/output/SAVED_LISTS/STDDEV_RANDOM_' + '_' + str(uid_val) + '--' + str(j), np.array(std_dev_list))
     
     
     
@@ -428,9 +428,9 @@ for j in range(30):
     except:
         print("No point closing, window already closed..")
 
-    np.save('/output/SAVED_LISTS/REWARD_LEFT_'+ '_' + str(uid_val), np.array(rewards_list))
-    np.save('/output/SAVED_LISTS/MEAN_LEFT_' + '_' + str(uid_val), np.array(mean_list))
-    np.save('/output/SAVED_LISTS/STDDEV_LEFT_' + '_' + str(uid_val), np.array(std_dev_list))
+    np.save('/output/SAVED_LISTS/REWARD_LEFT_'+ '_' + str(uid_val) + '--' + str(j), np.array(rewards_list))
+    np.save('/output/SAVED_LISTS/MEAN_LEFT_' + '_' + str(uid_val) + '--' + str(j), np.array(mean_list))
+    np.save('/output/SAVED_LISTS/STDDEV_LEFT_' + '_' + str(uid_val) + '--' + str(j), np.array(std_dev_list))
     
     
     
@@ -467,9 +467,9 @@ for j in range(30):
     except:
         print("No point closing, window already closed..")
 
-    np.save('/output/SAVED_LISTS/REWARD_MODERATE_'+ '_' + str(uid_val), np.array(rewards_list))
-    np.save('/output/SAVED_LISTS/MEAN_MODERATE_' + '_' + str(uid_val), np.array(mean_list))
-    np.save('/output/SAVED_LISTS/STDDEV_MODERATE_' + '_' + str(uid_val), np.array(std_dev_list))
+    np.save('/output/SAVED_LISTS/REWARD_MODERATE_'+ '_' + str(uid_val) + '--' + str(j), np.array(rewards_list))
+    np.save('/output/SAVED_LISTS/MEAN_MODERATE_' + '_' + str(uid_val) + '--' + str(j), np.array(mean_list))
+    np.save('/output/SAVED_LISTS/STDDEV_MODERATE_' + '_' + str(uid_val) + '--' + str(j), np.array(std_dev_list))
 
 
 # In[ ]:
